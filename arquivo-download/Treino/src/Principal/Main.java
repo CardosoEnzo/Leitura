@@ -22,8 +22,6 @@ public class Main {
 		l[0].avancarPag();
 		l[0].detalhes();
 		
-		p[1].fazerAniv();
-		p[1].atual();
 		
 	}
 

@@ -10,10 +10,11 @@ public class Livro implements Publicacao {
 	private Pessoas leitor;
 	
 	public void detalhes() {
-		System.out.println(titulo);
-		System.out.println(autor);
-		System.out.println(+this.pagAtual);
-		System.out.println(leitor.getNome());
+		System.out.println("Detalhes do livro");
+		System.out.println("Título do livro "+titulo);
+		System.out.println("Autor do livro "+autor);
+		System.out.println("Página atual "+this.pagAtual);
+		System.out.println("Quem está lendo é: "+leitor.getNome());
 	}
 	
 	public Livro(String ti, String autor, int tot, Pessoas leit) {

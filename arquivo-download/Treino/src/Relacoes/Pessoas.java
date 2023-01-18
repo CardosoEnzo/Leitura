@@ -6,10 +6,10 @@ public class Pessoas {
 	private int idade;
 	private String sexo;
 	
-	public Pessoas(String n, int i, String s) {
-		this.nome=n;
-		this.idade=i;
-		this.sexo=s;
+	public Pessoas(String nome, int idade, String sexo) {
+		this.nome=nome;
+		this.idade=idade;
+		this.sexo=sexo;
 	}
 	
 	public void atual() {
